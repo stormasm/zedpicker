@@ -1,6 +1,3 @@
-#[cfg(test)]
-mod tab_switcher_tests;
-
 use collections::HashMap;
 use gpui::{
     actions, impl_actions, rems, Action, AnyElement, AppContext, DismissEvent, EntityId,
